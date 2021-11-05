@@ -32,7 +32,7 @@ public class Commandpickaxe implements CommandExecutor {
 
                     } else {
 
-                        player.sendMessage("Incorrect Command Usage.");
+                        player.sendMessage("Incorrect Command Usage. /pickaxe silk");
 
                     }
                 }
