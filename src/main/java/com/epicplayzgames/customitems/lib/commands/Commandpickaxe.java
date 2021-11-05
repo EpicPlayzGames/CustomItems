@@ -23,6 +23,11 @@ public class Commandpickaxe implements CommandExecutor {
                     PlayerInventory playerInventory = player.getInventory();
                     playerInventory.addItem(diamondPickaxe.diamondPickaxe());
 
+                } else if (args.length == 1) {
+
+                    PlayerInventory playerInventory = player.getInventory();
+                    playerInventory.addItem(diamondPickaxe.silkPickaxe());
+
                 }
 
             } else {
