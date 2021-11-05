@@ -1,0 +1,20 @@
+name: CustomItems
+version: '${project.version}'
+main: com.epicplayzgames.customitems.CustomItems
+api-version: 1.17
+authors: [ EpicPlayzGames ]
+description: CustomItems
+website: https://github.com/EpicPlayzGames
+commands:
+  sword:
+    description: Obtain a custom diamond sword;
+    usage: /<command>
+    permission: customitems.diamondsword
+  pickaxe:
+    description: Obtain a custom diamond pickaxe
+    usage: /<command>
+    permission: customitems.diamondpickaxe
+  shovel:
+    description: Obtain a custom diamond shovel
+    usage: /<command>
+    permission: customitems.diamondshovel
