@@ -28,6 +28,7 @@ public class DiamondPickaxe {
                 ChatColor.RED + "Epic Silk Pickaxe!",
                 ChatColor.GOLD + "Custom Item by EpicPlayzGames",
                 Enchantment.DIG_SPEED,
+                7,
                 Enchantment.SILK_TOUCH,
                 7,
                 true

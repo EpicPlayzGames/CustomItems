@@ -39,8 +39,9 @@ public class CreateItemUtils {
             String displayName,
             String lore,
             Enchantment enchantment1,
+            int level1,
             Enchantment enchantment2,
-            int level,
+            int level2,
             boolean ignoreLevelRestriction) {
 
         ItemStack itemStack = new ItemStack(material);
@@ -48,8 +49,8 @@ public class CreateItemUtils {
         ItemMeta swordMeta = itemStack.getItemMeta();
         swordMeta.setDisplayName(displayName);
         swordMeta.setUnbreakable(true);
-        swordMeta.addEnchant(enchantment1, level, ignoreLevelRestriction);
-        swordMeta.addEnchant(enchantment2, level, ignoreLevelRestriction);
+        swordMeta.addEnchant(enchantment1, level1, ignoreLevelRestriction);
+        swordMeta.addEnchant(enchantment2, level2, ignoreLevelRestriction);
 
         ArrayList<String> itemLore = new ArrayList<>();
         itemLore.add(lore);

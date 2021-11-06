@@ -15,6 +15,7 @@ public class DiamondSword {
                 ChatColor.RED + "Epic Sword!",
                 ChatColor.GOLD + "Custom Item by EpicPlayzGames.",
                 Enchantment.FIRE_ASPECT,
+                15,
                 Enchantment.KNOCKBACK,
                 15,
                 true
